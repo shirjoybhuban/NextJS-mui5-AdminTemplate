@@ -1,0 +1,37 @@
+{
+  "name": "exaf",
+  "version": "1.0",
+  "description": "Farmer data system",
+  "license": "Beatnik Technology",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build & next export",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@fontsource/poppins": "^4.5.9",
+    "@mui/icons-material": "^5.10.2",
+    "@mui/material": "^5.10.2",
+    "@reduxjs/toolkit": "^1.8.2",
+    "axios": "0.21.1",
+    "date-fns": "2.17.0",
+    "formik": "^2.2.6",
+    "framer-motion": "3.3.0",
+    "localforage": "1.9.0",
+    "next": "12.2",
+    "next-redux-wrapper": "^7.0.5",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-feather": "^2.0.10",
+    "react-icons": "^4.3.1",
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0",
+    "redux-devtools-extension": "^2.13.9",
+    "swr": "0.4.2",
+    "use-async-effect": "^2.2.3"
+  }
+}

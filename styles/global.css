@@ -1,0 +1,76 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  height: 100%;
+}
+#__next {
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+.bg {
+  background-image: url('/images/login/leftImage.png');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+.sidebarButton {
+  min-height: 40;
+  padding-left: 2;
+  padding-right: 2;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Poppins';
+  color: #0c2d05;
+  background-color: #ffffff;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.sidebarIcon {
+  min-width: 0;
+  justify-content: 'center';
+  color: #0c2d05;
+}
+
+.sidebarButtonActive {
+  min-height: 40;
+  padding-left: 2;
+  padding-right: 2;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Poppins';
+  color: #ffffff;
+  background-color: #3658c7;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.sidebarIconActive {
+  min-width: 0;
+  justify-content: 'center';
+  color: #ffffff;
+}
+/* .sidebarButtonActive :hover {
+  color: red;
+} */
